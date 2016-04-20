@@ -1,4 +1,4 @@
-# faker Roman
+# Faker Roman
 * モックオブジェクト生成ライブラリ faker でランダムな古代ローマ人名を作成するためのプラグインです
 
 ## How to use

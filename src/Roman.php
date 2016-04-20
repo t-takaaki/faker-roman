@@ -2,7 +2,6 @@
 
 namespace Faker\Provider\ja_RO;
 
-// Factory::create(ja_RO)で生成したいため、ファイル名とクラス名を異なるものにした
 class Person extends \Faker\Provider\Person
 {
     // ローマ市民の男子の名は、個人名（praenomen）・氏族名（nomen gentile）・家族名（cognomen）・添え名（agnomen）からなっていた。 Wikipediaしらべ
