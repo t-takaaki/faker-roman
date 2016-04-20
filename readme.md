@@ -8,6 +8,7 @@
 * 生成されたインスタンスから以下のメソッドをコールするとそれに基づいたローマ人がランダムで返ってきます
 
 ```index.php
+<?php
 // load composer plugins (include faker)
 require_once './vendor/autoload.php';
 // load Roman
