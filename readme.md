@@ -2,10 +2,9 @@
 * モックオブジェクト生成ライブラリ faker でランダムな古代ローマ人名を作成するためのプラグインです
 
 ## How to use
-* composerが生成する autoload.php もしくは faker 以下の autoload.php を読み込み、ルートディレクトリ直下の src/Roman.php をrequireします
-
-* fakerのFactoryクラスのクラスメソッド create のパラメータに 'ja_RO' を渡します
-* 生成されたインスタンスから以下のメソッドをコールするとそれに基づいたローマ人がランダムで返ってきます
+* faker とルートディレクトリ直下の src/Roman.php を読み込みます
+* fakerのFactory::create()のパラメータに 'ja_RO' を渡し、インスタンスを生成します
+* 生成されたインスタンスから以下のメソッドをコールすると、それに基きランダムに生成された古代ローマ人名が返ってきます
 
 ```index.php
 <?php
